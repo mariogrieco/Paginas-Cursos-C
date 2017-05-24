@@ -1,0 +1,405 @@
+body {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+body
+		{
+			/*#474756 */
+			padding-top: 50px;
+			fill-opacity: 0.9;
+			font-stretch: extra-expanded !important;
+			text-rendering: geometricPrecision;
+			text-rendering: optimizeLegibility !important;
+			font-smoothing: antialiased !important;
+			-webkit-font-smoothing: antialiased !important;
+			-moz-osx-font-smoothing: grayscale !important;
+			font-size: 16px;
+			color: #333;
+			font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+			line-height: 1.45em;
+			letter-spacing: 0.005em;
+			word-spacing: 0.005em;
+			/*max-width: 1200px !important;
+			margin: 0 auto !important;*/
+			/*font-stretch: condensed !important;*/
+			/*box-shadow: 0px 0px 10px 0.01px rgba(0, 0, 0, 0.36);*/
+			/*font-family: 'Lustria', serif;*/
+			/*font-variant: small-caps;*/
+			/*background-color: rgba(252, 252, 255, 1);*/
+			/*background-color: #5a6a79;*/
+			/*background-color: #33363A;*/
+			/*background-color: rgba(63, 89, 100, 0.15);*/
+		}
+header
+{	
+	font-size: 16px !important;
+	position: fixed;
+	min-height: 50px !important;
+	margin: 0px;
+	padding: 0px;
+	color: #7f7f84 !important;
+	/*background-color: #28282d;*/
+	background-color: #434343;
+	top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+header a , header img, header span{
+	padding: 12.5px 0px;
+	display: inline-block;
+	color: whitesmoke;
+	text-decoration: none;
+	vertical-align: middle;
+
+}
+
+header span {
+	padding-right: 15%;
+	float: right;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body div {
+	margin: 0 auto;
+	max-width: 920px;
+	text-align: center;
+}
+
+body div img {
+    height: 35%;
+    width: 35%;
+    padding: 2em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    /*background-color: rgba(211, 206, 206, 0.06);*/
+    /*border-radius: 45em;*/
+}
+
+body div span {
+
+	font-size: 64px;
+	display: block;
+	margin-top: 0.3em;
+	line-height: 1em;
+	color: whitesmoke;
+}
+
+.cover
+{
+	border-bottom: 55px solid #123746;	
+}
+.cover div span
+{
+	font-size: 96px;
+	margin: 0px;
+	padding: 0px;
+}
+#user
+{
+	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #ccc;
+}
+#user h2
+{
+	padding: 1em;
+	margin: 0px;
+	text-align: center;
+}
+#user 
+{
+	background-color: #eee;
+	color: #165570;
+
+}
+#user article
+{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-center;
+} 
+#user article p
+{
+	text-align: left;
+}
+#user article p
+{
+	font-style: italic;	
+}
+#f2
+{
+	order: 2;
+	-webkit-order: 2;
+}
+
+
+#user article figure img 
+{
+	width: 250px;
+	height: 250px;
+	justify-content: center;
+	margin: 0 auto;
+	border: 2px solid #434343;
+	border-radius: 50%;
+}
+
+#section_f article,#section1 article,#f1 article,#user article{
+	margin: 0 auto;
+	max-width: 920px;
+	text-align: center;
+	padding: 2.5em;
+	justify-content: center;
+}
+
+section article h1
+{
+	text-align: center;
+	color: #165570;
+	margin-top: 0em;
+	line-height: 1em;
+}
+#f1 {
+	background-color: white;
+}
+#section {
+	background-color: #ccc;
+}
+#section article {
+
+	padding-top: 0em;
+}
+
+#section1 {
+	background-color: white;
+    color: #434343;
+
+}
+#section1 article figure {
+	display: inline-block;
+	margin: 1em 1em;
+	text-align: center;
+	vertical-align: top;
+	width: 200px;
+    height: 200px;
+}
+#section1 article figure img {
+	height: 100px;
+	vertical-align: top;
+}
+section article h2 {
+	color: #434343;
+	text-align: center;
+}
+#section2
+{
+	max-width: none !important;
+	text-align: center;
+}
+#section2 div
+{
+	text-align: center;
+	padding: 1em;
+}
+#section2,#section2 article
+{
+	background-color: #f1f1f1;
+	margin: 0px;
+	padding: 0px;
+	padding: 0.5em 1em 2em 1em;
+}
+
+#section2 article ul
+{
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+
+}
+#section2 article ul li
+{
+	display: block;
+}
+
+#section2 article ul li:before{
+	content: '\e900';
+	color: #22bce0;
+	margin-right: 0.5em;
+	border-radius: 15em;
+	font-family: 'icomoon';
+}
+
+body section article div {
+	margin: 0 auto;
+	text-align: center;
+}
+body section article div img {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	background-color: initial;
+}
+
+.other img {
+	border-radius: 0px;
+	background-color: inherit;
+}
+
+header img {
+	padding-left: 15%;
+}
+
+#section_f {
+	background-color: rgb(39,58,71);
+	text-indent: 1em;
+}
+#section_f  article h3 {
+	font=font-family: 'Lato';
+	font-style: bold;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #ccc;	
+}
+
+#section_f article p {
+	text-align: left;
+	font-family: 'Roboto Slab';	
+	font-size: 16px;
+	color: #ccc;
+}
+
+footer{
+	text-align: center;
+   	background-color: #30373B;
+    color: #ccc;
+    font-family: 'Lato';
+    padding: 1.5em 0.5em;
+ 	font-weight: bolder;
+
+}
+footer span {
+	display: inline-block;
+	text-align: center;
+}
+
+.especial {
+	color: red;
+	display: block;
+	padding: 1em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.especial img {
+	width: 18px;
+	height: 18px;
+}
+
+.contacto img {
+	height: 50px;
+}
+
+.cover {
+	background-color: red;
+	max-width: inherit;
+	background: #000;
+    background-image: url("../images/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 1em 1em 5em 1em;
+}
+
+video {
+	width: 100%;
+	background-color: #434343;
+}
+@media screen and ( max-width: 920px ) {
+	header span {
+		display: none;
+	}
+	header, header img {
+		text-align: center;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#section2 article div ul 
+	{
+		width: 250px;
+	}
+}
+
+@media screen and ( min-width: 1020px ) {
+
+
+}
+
+@media screen and ( max-width: 920px ) {
+
+	#user article
+	{
+		display: inline-block;
+
+	}
+	#user article figure
+	{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and ( max-width: 620px ) {
+	body div span  {
+		font-size: 40px;
+	}
+	#section_f article	 
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	#section_f article p
+	{
+		padding: 0.5em 1.5em;
+	}
+	video
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	body {
+		    background-color: rgb(39,58,71);
+	}
+	.cover div span
+	{
+		font-size: 40px !important;
+	}
+
+}
+@media screen and ( max-width: 320px ) {
+
+	#cover img
+	{
+		width: 59%; 
+		height: 59%;
+	}
+	#user article figure img
+	{
+		width: 70%;
+		height: 70%;
+	}
+
+}
